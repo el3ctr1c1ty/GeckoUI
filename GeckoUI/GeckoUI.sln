@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeckoUI", "GeckoUI.csproj", "{5A5F4DB5-8FEC-43C3-901C-CE69507CE8DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "..\Example\Example.csproj", "{548F6ACE-D3B3-4752-89CA-15408FB9E161}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "..\Example\GeckoUI.Example.csproj", "{548F6ACE-D3B3-4752-89CA-15408FB9E161}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
