@@ -16,5 +16,7 @@ jobs:
       run: dotnet restore GeckoUI.sln
     - name: Setup MSBuild.exe
       uses: warrenbuckley/Setup-MSBuild@v1
+    - name: Copy files
+      run: copy GeckoUI\packages\Geckofx60.32.60.0.44\lib\net45\ GeckoUI\
     - name: Build with MSBuild
       run: msbuild GeckoUI.sln -restore -p:Configuration=Release
