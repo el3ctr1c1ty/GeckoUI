@@ -1,7 +1,7 @@
 language: csharp
-mono: latest
+mono: none
 dotnet: 3.1.200
 solution: GeckoUI.sln
 script:
   - nuget restore
-  - msbuild
+  - dotnet build
