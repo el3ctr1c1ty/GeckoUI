@@ -13,7 +13,7 @@ GeckoUI is a powerful and lightweight tool to build user interfaces with Html/Cs
 Application.EnableVisualStyles();
 Application.SetCompatibleTextRenderingDefault(true);
 var form = new GeckoUI.GeckoForm { EnableBorder = false, EnableEffects = true, RoundRadius = 10 };
-form.LoadPage("https://el3ctr1c1ty.ru/geckoui", 800, 510);
+form.LoadPage("https://electricity.su/geckoui", 800, 510);
 Application.Run(form);
 ```
     
